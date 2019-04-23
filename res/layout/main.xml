@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="vertical">
+	<ScrollView android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+		<LinearLayout android:id="@+id/LinearLayout01"
+			android:orientation="vertical" android:layout_width="fill_parent"
+			android:layout_height="fill_parent">
+			<EditText android:layout_marginTop="30dp" android:hint="Text to be Reminded"
+				android:layout_height="wrap_content" android:layout_width="fill_parent"
+				android:id="@+id/EditText01"></EditText>
+			<Button android:layout_marginTop="10dp" android:layout_height="wrap_content"
+				android:layout_width="wrap_content" android:text="Add Text to Reminder"
+				android:id="@+id/Button01" android:layout_gravity="center_horizontal"></Button>
+			<Button android:layout_marginTop="10dp" android:layout_height="wrap_content"
+				android:layout_width="wrap_content" android:text="Start Reminder"
+				android:id="@+id/Button02" android:layout_gravity="center_horizontal"></Button>
+				
+			<TextView android:layout_marginTop="30dp" android:layout_width="fill_parent" android:text="Setting Range Timer in Minutes"
+				android:layout_height="wrap_content"/>
+			<EditText android:layout_marginTop="10dp" android:hint="minimum"
+				android:id="@+id/EditText02" android:layout_width="fill_parent"
+				android:layout_height="wrap_content"></EditText>
+			<EditText android:layout_marginTop="10dp" android:hint="maximum"
+				android:id="@+id/EditText03" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:layout_gravity="center_horizontal"></EditText>
+			<Button android:layout_marginTop="10dp" android:text="Save Max Min"
+				android:id="@+id/Button03" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:layout_gravity="center_horizontal"></Button>
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>
